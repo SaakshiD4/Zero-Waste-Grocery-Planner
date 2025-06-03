@@ -67,7 +67,7 @@ prompt_template_meal = PromptTemplate(
     - Time Until Expiry (Days): {days_to_expiry}
 
     2. The plan should be optimized to minimize food waste by prioritizing items that expire soon.
-    3. Strictly do not repeat the exact same meals on consecutive days.
+    3. Ensure that no meal (recipe name) is repeated on two consecutive days; each day must have completely unique meals.
     4. Double-check your responses before finalizing the meal plan.
     5. For each meal (breakfast, lunch, snacks, dinner), provide both the recipe name and the detailed step-by-step cooking instructions.
     6. Output the plan in JSON format with days (monday, tuesday, wednesday, etc.) as keys and each day containing 4 meals (breakfast, lunch, snacks, dinner). For each meal, include:
