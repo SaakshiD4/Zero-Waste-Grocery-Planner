@@ -31,7 +31,7 @@ if "GOOGLE_API_KEY" not in os.environ:
 
 
 # Initialize Gemini model
-gemini = GoogleGenerativeAI(model="gemini-1.5-pro")
+gemini = GoogleGenerativeAI(model="gemini-2.5-flash")
 
 def calculate_days_to_expiry(expiry_dates):
     """Calculate days until expiry for each item."""
